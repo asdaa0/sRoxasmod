@@ -6,7 +6,7 @@ Description: Initializing game
 
 java.lang.NullPointerException: Initializing game
 	at net.minecraftforge.common.config.Configuration.save(Configuration.java:543)
-	at com.sRoxas.sroxasmod.configuration.ConfigurationHandler.init(ConfigurationHandler.java:30)
+	at com.sRoxas.sroxasmod.handler.ConfigurationHandler.init(ConfigurationHandler.java:30)
 	at com.sRoxas.sroxasmod.sRoxasmod.preinit(sRoxasmod.java:26)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
@@ -65,7 +65,7 @@ A detailed walkthrough of the error, its code path and all known details is as f
 -- Head --
 Stacktrace:
 	at net.minecraftforge.common.config.Configuration.save(Configuration.java:543)
-	at com.sRoxas.sroxasmod.configuration.ConfigurationHandler.init(ConfigurationHandler.java:30)
+	at com.sRoxas.sroxasmod.handler.ConfigurationHandler.init(ConfigurationHandler.java:30)
 	at com.sRoxas.sroxasmod.sRoxasmod.preinit(sRoxasmod.java:26)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)

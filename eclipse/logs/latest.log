@@ -1,12 +1,58 @@
-[20:41:15] [main/INFO]: Setting user: ForgeDevName
-[20:41:15] [Client thread/INFO]: LWJGL Version: 2.9.0
-[20:41:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:sRoxasmod
-[20:41:20] [Sound Library Loader/INFO]: Sound engine started
-[20:41:20] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[20:41:20] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[20:41:20] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:sRoxasmod
-[20:41:20] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[20:41:20] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[20:41:21] [Sound Library Loader/INFO]: Sound engine started
-[20:41:21] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
-[20:41:25] [Client thread/INFO]: Stopping!
+[19:27:06] [main/INFO]: Setting user: ForgeDevName
+[19:27:07] [Client thread/INFO]: LWJGL Version: 2.9.1
+[19:27:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:sRoxasmod
+[19:27:12] [Sound Library Loader/INFO]: Sound engine started
+[19:27:13] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[19:27:13] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[19:27:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:sRoxasmod
+[19:27:13] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[19:27:13] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[19:27:14] [Sound Library Loader/INFO]: Sound engine started
+[19:27:19] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[19:27:19] [Server thread/INFO]: Generating keypair
+[19:27:20] [Server thread/INFO]: Preparing start region for level 0
+[19:27:20] [Server thread/INFO]: Changing view distance to 12, from 10
+[19:27:21] [Server thread/INFO]: ForgeDevName[local:E:912fd49b] logged in with entity id 182 at (883.8341751805539, 4.0, 588.5157948591553)
+[19:27:21] [Server thread/INFO]: ForgeDevName joined the game
+[19:27:21] [Server thread/INFO]: Saving and pausing game...
+[19:27:21] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[19:27:21] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[19:27:21] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[19:27:33] [Server thread/INFO]: Saving and pausing game...
+[19:27:33] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[19:27:33] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[19:27:33] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[19:55:12] [Server thread/INFO]: Stopping server
+[19:55:12] [Server thread/INFO]: Saving players
+[19:55:12] [Server thread/INFO]: Saving worlds
+[19:55:12] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[19:55:12] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[19:55:12] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[19:55:13] [Client thread/INFO]: Stopping!
+evName
+[19:55:14] [Client thread/INFO]: LWJGL Version: 2.9.1
+[19:55:18] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:sRoxasmod
+[19:55:19] [Sound Library Loader/INFO]: Sound engine started
+[19:55:20] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[19:55:20] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[19:55:20] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:sRoxasmod
+[19:55:20] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[19:55:20] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[19:55:21] [Sound Library Loader/INFO]: Sound engine started
+[19:55:24] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[19:55:24] [Server thread/INFO]: Generating keypair
+[19:55:24] [Server thread/INFO]: Preparing start region for level 0
+[19:55:24] [Server thread/INFO]: Changing view distance to 12, from 10
+[19:55:25] [Server thread/INFO]: ForgeDevName[local:E:db04b83a] logged in with entity id 182 at (883.8801269026958, 4.0, 591.5824138805524)
+[19:55:25] [Server thread/INFO]: ForgeDevName joined the game
+[19:56:04] [Server thread/INFO]: Saving and pausing game...
+[19:56:04] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[19:56:04] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[19:56:04] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[19:56:05] [Server thread/INFO]: Stopping server
+[19:56:05] [Server thread/INFO]: Saving players
+[19:56:05] [Server thread/INFO]: Saving worlds
+[19:56:05] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[19:56:05] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[19:56:05] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[19:56:06] [Client thread/INFO]: Stopping!
