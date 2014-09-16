@@ -1,6 +1,6 @@
 package com.sRoxas.sroxasmod.item;
 
-public class ItemCheese extends ItemsRoxasmod
+public class ItemCheese extends modItem
 {
     public ItemCheese()
     {

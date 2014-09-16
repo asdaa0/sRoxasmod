@@ -1,1 +1,10 @@
+# Creative Tabs
+itemGroup.sroxasmoditems=sRoxasmod's Items
+itemGroup.sroxasmodblocks=sRoxasmod's Blocks
+
+# Items
 item.sroxasmod:cheese.name=Cheese
+item.sroxasmod:hardenedStick.name=Hardened Stick
+
+# Blocks
+tile.sroxasmod:bambooPlanks.name=Bamboo Planks

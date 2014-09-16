@@ -1,6 +1,7 @@
 package com.sRoxas.sroxasmod;
 
 import com.sRoxas.sroxasmod.handler.ConfigurationHandler;
+import com.sRoxas.sroxasmod.init.ModBlocks;
 import com.sRoxas.sroxasmod.init.ModItems;
 import com.sRoxas.sroxasmod.proxy.IProxy;
 import com.sRoxas.sroxasmod.reference.Reference;
@@ -29,6 +30,9 @@ public class sRoxasmod
         LogHelper.info("Pre Initialization Complete");
 
         ModItems.init();
+        LogHelper.info("sRoxasmod's Items have finished loading");
+        ModBlocks.init();
+        LogHelper.info("sRoxasmod's Blocks have finished loading");
     }
 
     @Mod.EventHandler
