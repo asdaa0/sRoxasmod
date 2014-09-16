@@ -1,3 +1,8 @@
+# Key Bindings
+keys.sroxasmod.category=sRoxasmod
+keys.sroxasmod.charge=Charge
+keys.sroxasmod.release=Release
+
 # Creative Tabs
 itemGroup.sroxasmoditems=sRoxasmod's Items
 itemGroup.sroxasmodblocks=sRoxasmod's Blocks

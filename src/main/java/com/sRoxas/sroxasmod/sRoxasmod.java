@@ -1,8 +1,10 @@
 package com.sRoxas.sroxasmod;
 
+import com.sRoxas.sroxasmod.client.handler.KeyInputEventHandler;
 import com.sRoxas.sroxasmod.handler.ConfigurationHandler;
 import com.sRoxas.sroxasmod.init.ModBlocks;
 import com.sRoxas.sroxasmod.init.ModItems;
+import com.sRoxas.sroxasmod.init.Recipies;
 import com.sRoxas.sroxasmod.proxy.IProxy;
 import com.sRoxas.sroxasmod.reference.Reference;
 import com.sRoxas.sroxasmod.utility.LogHelper;
@@ -27,17 +29,23 @@ public class sRoxasmod
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
-        LogHelper.info("Pre Initialization Complete");
+
+        proxy.registerKeyBindings();
 
         ModItems.init();
         LogHelper.info("sRoxasmod's Items have finished loading");
+
         ModBlocks.init();
         LogHelper.info("sRoxasmod's Blocks have finished loading");
+
+        LogHelper.info("Pre Initialization Complete");
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
+        FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
+        Recipies.init();
         LogHelper.info("Initialization Complete");
     }
 
