@@ -14,6 +14,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraft.item.crafting.CraftingManager;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class sRoxasmod
@@ -35,7 +36,7 @@ public class sRoxasmod
         ModItems.init();
         LogHelper.info("sRoxasmod's Items have finished loading");
 
-        ModBlocks.init();
+        ModBlocks.registerBlocks();
         LogHelper.info("sRoxasmod's Blocks have finished loading");
 
         LogHelper.info("Pre Initialization Complete");
@@ -45,7 +46,7 @@ public class sRoxasmod
     public void init(FMLInitializationEvent event)
     {
         FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
-        Recipies.init();
+        Recipies.init(CraftingManager.getInstance());
         LogHelper.info("Initialization Complete");
     }
 

@@ -6,10 +6,44 @@ keys.sroxasmod.release=Release
 # Creative Tabs
 itemGroup.sroxasmoditems=sRoxasmod's Items
 itemGroup.sroxasmodblocks=sRoxasmod's Blocks
+itemGroup.sroxasmodtools=sRoxasmod's Tools
 
 # Items
-item.sroxasmod:cheese.name=Cheese
-item.sroxasmod:hardenedStick.name=Hardened Stick
+item.cheese.name=Cheese
+item.hardenedStick.name=Hardened Stick
+item.reinforcedIronIngot.name=Reinforced Iron Ingot
+item.reinforcedDiamond.name=Reinforced Diamond
+# Tools
+item.reinforcedAxe.name=Reinforced Axe
+item.reinforcedSword.name=Reinforced Sword
+item.reinforcedPick.name=Reinforced Pickaxe
+item.reinforcedShovel.name=Reinforced Shovel
+item.reinforcedHoe.name=Reinforced Hoe
 
+item.purpleGemAxe.name=Purple Gem Axe
+item.purpleGemSword.name=Purple Gem Sword
+item.purpleGemPick.name=Purple Gem Pick
+item.purpleGemShovel.name=Purple Gem Shovel
+item.purpleGemHoe.name=Purple Gem Hoe
+
+item.redGemAxe.name=Red Gem Axe
+item.redGemSword.name=Red Gem Sword
+item.redGemPick.name=Red Gem Pick
+item.redGemShovel.name=Red Gem Shovel
+item.redGemHoe.name=Red Gem Hoe
+
+item.greenGemAxe.name=Green Gem Axe
+item.greenGemSword.name=Green Gem Sword
+item.greenGemPick.name=Green Gem Pick
+item.greenGemShovel.name=Green Gem Shovel
+item.greenGemHoe.name=Green Gem Hoe
+
+item.blueGemAxe.name=Blue Gem Axe
+item.blueGemSword.name=Blue Gem Sword
+item.blueGemPick.name=Blue Gem Pick
+item.blueGemShovel.name=Blue Gem Shovel
+item.blueGemHoe.name=Blue Gem Hoe
 # Blocks
 tile.sroxasmod:bambooPlanks.name=Bamboo Planks
+tile.sroxasmod:blockOfReinforcedIron.name=Block of Reinforced Iron
+tile.sroxasmod:blockOfReinforcedDiamondEncrustedIron.name=Block of Reinforced Diamond Encrusted Iron
