@@ -21,6 +21,7 @@ public class ModItems
     public static Item  greenGem;
     public static Item  blueGem;
     public static Item  pinkGem;
+    public static Item  orangeGem;
 
     // Tools
     public static Item  reinforcedAxe;
@@ -58,6 +59,12 @@ public class ModItems
     public static Item  pinkGemPick;
     public static Item  pinkGemShovel;
     public static Item  pinkGemHoe;
+
+    public static Item  orangeGemAxe;
+    public static Item  orangeGemSword;
+    public static Item  orangeGemPick;
+    public static Item  orangeGemShovel;
+    public static Item  orangeGemHoe;
     // Misc Items
     public static Item  cheese;
     public static Item  hardenedStick;
@@ -67,7 +74,8 @@ public class ModItems
     private static Item.ToolMaterial redGemMaterial = EnumHelper.addToolMaterial("REDGEMMATERIAL", 2, 1600, 8.0F, 3.0F, 22);
     private static Item.ToolMaterial greenGemMaterial = EnumHelper.addToolMaterial("GREENGEMMATERIAL", 2, 1650, 8.0F, 3.0F, 22);
     private static Item.ToolMaterial blueGemMaterial = EnumHelper.addToolMaterial("BLUEGEMMATERIAL", 2, 1570, 8.0F, 3.0F, 22);
-    private static Item.ToolMaterial pinkGemMaterial = EnumHelper.addToolMaterial("GREENGEMMATERIAL", 2, 1700, 8.0F, 3.0F, 22);
+    private static Item.ToolMaterial pinkGemMaterial = EnumHelper.addToolMaterial("PINKGEMMATERIAL", 2, 1700, 8.0F, 3.0F, 22);
+    private static Item.ToolMaterial orangeGemMaterial = EnumHelper.addToolMaterial("ORANGEGEMMATERIAL", 2, 1700, 8.0F, 3.0F, 22);
 
     public static void init()
     {
@@ -81,6 +89,7 @@ public class ModItems
         greenGem = new modGem(Names.Items.GREEN_GEM);
         blueGem = new modGem(Names.Items.BLUE_GEM);
         pinkGem = new modGem(Names.Items.PINK_GEM);
+        orangeGem = new modGem (Names.Items.ORANGE_GEM);
 
         // Tools
         reinforcedAxe = new modAxe(ReinforcedMaterial, Names.Items.REINFORCED_AXE);
@@ -119,6 +128,12 @@ public class ModItems
         pinkGemShovel = new modShovel(pinkGemMaterial, Names.Items.PINK_GEM_SHOVEL);
         pinkGemHoe = new modHoe(pinkGemMaterial, Names.Items.PINK_GEM_HOE);
 
+        orangeGemAxe = new modAxe(orangeGemMaterial, Names.Items.ORANGE_GEM_AXE);
+        orangeGemSword = new modSword(orangeGemMaterial, Names.Items.ORANGE_GEM_SWORD);
+        orangeGemPick = new modPick(orangeGemMaterial, Names.Items.ORANGE_GEM_PICK);
+        orangeGemShovel = new modShovel(orangeGemMaterial, Names.Items.ORANGE_GEM_SHOVEL);
+        orangeGemHoe = new modHoe(orangeGemMaterial, Names.Items.ORANGE_GEM_HOE);
+
         // Misc Items
         cheese = new modmiscitem(Names.Items.CHEESE);
         hardenedStick = new modmiscitem(Names.Items.HARDENED_STICK);
@@ -136,6 +151,7 @@ public class ModItems
         GameRegistry.registerItem(greenGem, Names.Items.GREEN_GEM);
         GameRegistry.registerItem(blueGem, Names.Items.BLUE_GEM);
         GameRegistry.registerItem(pinkGem, Names.Items.PINK_GEM);
+        GameRegistry.registerItem(orangeGem,Names.Items.ORANGE_GEM);
         // Tools
         GameRegistry.registerItem(reinforcedAxe, Names.Items.REINFORCED_AXE);
         GameRegistry.registerItem(reinforcedSword, Names.Items.REINFORCED_SWORD);
@@ -172,6 +188,12 @@ public class ModItems
         GameRegistry.registerItem(pinkGemPick, Names.Items.PINK_GEM_PICK);
         GameRegistry.registerItem(pinkGemShovel, Names.Items.PINK_GEM_SHOVEL);
         GameRegistry.registerItem(pinkGemHoe, Names.Items.PINK_GEM_HOE);
+
+        GameRegistry.registerItem(orangeGemAxe, Names.Items.ORANGE_GEM_AXE);
+        GameRegistry.registerItem(orangeGemSword, Names.Items.ORANGE_GEM_SWORD);
+        GameRegistry.registerItem(orangeGemPick, Names.Items.ORANGE_GEM_PICK);
+        GameRegistry.registerItem(orangeGemShovel, Names.Items.ORANGE_GEM_SHOVEL);
+        GameRegistry.registerItem(orangeGemHoe, Names.Items.ORANGE_GEM_HOE);
         // Misc Items
         GameRegistry.registerItem(cheese, Names.Items.CHEESE);
         GameRegistry.registerItem(hardenedStick, Names.Items.HARDENED_STICK);

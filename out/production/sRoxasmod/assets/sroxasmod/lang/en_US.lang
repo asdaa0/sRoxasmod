@@ -20,6 +20,7 @@ item.redGem.name=Red Gem
 item.greenGem.name=Green Gem
 item.blueGem.name=Blue Gem
 item.pinkGem.name=Pink Gem
+item.orangeGem.name=Orange Gem
 
 # Tools
 item.reinforcedAxe.name=Reinforced Axe
@@ -51,6 +52,18 @@ item.blueGemSword.name=Blue Gem Sword
 item.blueGemPick.name=Blue Gem Pick
 item.blueGemShovel.name=Blue Gem Shovel
 item.blueGemHoe.name=Blue Gem Hoe
+
+item.pinkGemAxe.name=Pink Gem Axe
+item.pinkGemSword.name=Pink Gem Sword
+item.pinkGemPick.name=Pink Gem Pick
+item.pinkGemShovel.name=Pink Gem Shovel
+item.pinkGemHoe.name=Pink Gem Hoe
+
+item.orangeGemAxe.name=orange Gem Axe
+item.orangeGemSword.name=orange Gem Sword
+item.orangeGemPick.name=orange Gem Pick
+item.orangeGemShovel.name=orange Gem Shovel
+item.orangeGemHoe.name=orange Gem Hoe
 # Blocks
 tile.sroxasmod:bambooPlanks.name=Bamboo Planks
 tile.sroxasmod:blockOfReinforcedIron.name=Block of Reinforced Iron

@@ -32,6 +32,7 @@ public final class Names
         public static final String GREEN_GEM = "greenGem";
         public static final String BLUE_GEM = "blueGem";
         public static final String PINK_GEM = "pinkGem";
+        public static final String ORANGE_GEM = "orangeGem";
 
         // Tools
         public static final String REINFORCED_AXE = "reinforcedAxe";
@@ -69,6 +70,12 @@ public final class Names
         public static final String PINK_GEM_PICK = "pinkGemPick";
         public static final String PINK_GEM_SHOVEL = "pinkGemShovel";
         public static final String PINK_GEM_HOE = "pinkGemHoe";
+
+        public static final String ORANGE_GEM_AXE = "orangeGemAxe";
+        public static final String ORANGE_GEM_SWORD = "orangeGemSword";
+        public static final String ORANGE_GEM_PICK = "orangeGemPick";
+        public static final String ORANGE_GEM_SHOVEL = "orangeGemShovel";
+        public static final String ORANGE_GEM_HOE = "orangeGemHoe";
     }
 }
 
