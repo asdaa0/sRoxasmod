@@ -169,6 +169,9 @@
       </item>
     </group>
   </component>
+  <component name="ProjectDictionaryState">
+    <dictionary name="Luke" />
+  </component>
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/sRoxasmod.iml" filepath="$PROJECT_DIR$/sRoxasmod.iml" />

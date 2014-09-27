@@ -13,6 +13,14 @@ item.cheese.name=Cheese
 item.hardenedStick.name=Hardened Stick
 item.reinforcedIronIngot.name=Reinforced Iron Ingot
 item.reinforcedDiamond.name=Reinforced Diamond
+
+# Gems
+item.purpleGem.name=Purple Gem
+item.redGem.name=Red Gem
+item.greenGem.name=Green Gem
+item.blueGem.name=Blue Gem
+item.pinkGem.name=Pink Gem
+
 # Tools
 item.reinforcedAxe.name=Reinforced Axe
 item.reinforcedSword.name=Reinforced Sword
@@ -43,6 +51,12 @@ item.blueGemSword.name=Blue Gem Sword
 item.blueGemPick.name=Blue Gem Pick
 item.blueGemShovel.name=Blue Gem Shovel
 item.blueGemHoe.name=Blue Gem Hoe
+
+item.pinkGemAxe.name=Pink Gem Axe
+item.pinkGemSword.name=Pink Gem Sword
+item.pinkGemPick.name=Pink Gem Pick
+item.pinkGemShovel.name=Pink Gem Shovel
+item.pinkGemHoe.name=Pink Gem Hoe
 # Blocks
 tile.sroxasmod:bambooPlanks.name=Bamboo Planks
 tile.sroxasmod:blockOfReinforcedIron.name=Block of Reinforced Iron

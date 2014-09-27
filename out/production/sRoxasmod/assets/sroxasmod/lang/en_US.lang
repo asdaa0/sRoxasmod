@@ -13,6 +13,14 @@ item.cheese.name=Cheese
 item.hardenedStick.name=Hardened Stick
 item.reinforcedIronIngot.name=Reinforced Iron Ingot
 item.reinforcedDiamond.name=Reinforced Diamond
+
+# Gems
+item.purpleGem.name=Purple Gem
+item.redGem.name=Red Gem
+item.greenGem.name=Green Gem
+item.blueGem.name=Blue Gem
+item.pinkGem.name=Pink Gem
+
 # Tools
 item.reinforcedAxe.name=Reinforced Axe
 item.reinforcedSword.name=Reinforced Sword
