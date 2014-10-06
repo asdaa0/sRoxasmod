@@ -1,12 +1,10 @@
 package com.sRoxas.sroxasmod.init;
 
 import com.sRoxas.sroxasmod.item.*;
-import com.sRoxas.sroxasmod.item.modPick;
 import com.sRoxas.sroxasmod.reference.Names;
 import com.sRoxas.sroxasmod.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemPickaxe;
 import net.minecraftforge.common.util.EnumHelper;
 
 @GameRegistry.ObjectHolder(Reference.MOD_ID)

@@ -9,11 +9,23 @@ public final class Names
         public static final String RELEASE = "keys.sroxasmod.release";
     }
 
+    public static final class Entities
+    {
+        public static final String SROXAS = "sRoxas";
+    }
+
     public static final class Blocks
     {
         public static final String BAMBOO_PLANKS = "bambooPlanks";
         public static final String BLOCK_OF_REINFORCED_IRON = "blockOfReinforcedIron";
         public static final String BLOCK_OF_DIAMOND_ENCRUSTED_IRON = "blockOfReinforcedDiamondEncrustedIron";
+
+        public static final String ORE_PURPLE_GEM = "purpleGemOre";
+        public static final String ORE_RED_GEM = "redGemOre";
+        public static final String ORE_GREEN_GEM = "greenGemOre";
+        public static final String ORE_BLUE_GEM = "blueGemOre";
+        public static final String ORE_PINK_GEM = "pinkGemOre";
+        public static final String ORE_ORANGE_GEM = "orangeGemOre";
     }
 
     public static final class Items

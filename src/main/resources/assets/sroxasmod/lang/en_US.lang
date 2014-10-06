@@ -64,7 +64,24 @@ item.orangeGemSword.name=Orange Gem Sword
 item.orangeGemPick.name=Orange Gem Pick
 item.orangeGemShovel.name=Orange Gem Shovel
 item.orangeGemHoe.name=Orange Gem Hoe
+
 # Blocks
 tile.sroxasmod:bambooPlanks.name=Bamboo Planks
 tile.sroxasmod:blockOfReinforcedIron.name=Block of Reinforced Iron
 tile.sroxasmod:blockOfReinforcedDiamondEncrustedIron.name=Block of Reinforced Diamond Encrusted Iron
+
+#Ores
+tile.sroxasmod:orePurpleGem.name=Purple Gem Ore
+tile.sroxasmod:oreRedGem.name=Red Gem Ore
+tile.sroxasmod:oreBlueGem.name=Blue Gem Ore
+tile.sroxasmod:oreGreenGem.name=Green Gem Ore
+tile.sroxasmod:orePinkGem.name=Pink Gem Ore
+tile.sroxasmod:oreOrangeGem.name=Orange Gem Ore
+
+#Ores2
+tile.blockOres.purpleGemOre.name=Purple Gem Ore
+tile.blockOres.redGemOre.name=Red Gem Ore
+tile.blockOres.blueGemOre.name=Blue Gem Ore
+tile.blockOres.greenGemOre.name=Green Gem Ore
+tile.blockOres.pinkGemOre.name=Pink Gem Ore
+tile.blockOres.orangeGemOre.name=Orange Gem Ore
