@@ -1,6 +1,9 @@
 package com.sRoxas.sroxasmod.worldGen;
 
 import com.sRoxas.sroxasmod.blocks.BlockDecsRoxasmod;
+import com.sRoxas.sroxasmod.blocks.BlockGemOres;
+import com.sRoxas.sroxasmod.blocks.BlockOres;
+import com.sRoxas.sroxasmod.reference.Reference;
 import cpw.mods.fml.common.IWorldGenerator;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
@@ -37,12 +40,21 @@ public class sRoxasWorldGen implements IWorldGenerator{
 
     private void generateSurface(World world, Random random, int x, int z)
     {
-        this.addOreSpawn(BlockDecsRoxasmod.blockOres, 0, world, random, x, z, 16, 16, 4 + random.nextInt(6), 15, 0, 68);
-        this.addOreSpawn(BlockDecsRoxasmod.blockOres, 1, world, random, x, z, 16, 16, 4 + random.nextInt(6), 15, 0, 68);
-        this.addOreSpawn(BlockDecsRoxasmod.blockOres, 2, world, random, x, z, 16, 16, 4 + random.nextInt(6), 15, 0, 68);
-        this.addOreSpawn(BlockDecsRoxasmod.blockOres, 3, world, random, x, z, 16, 16, 4 + random.nextInt(6), 15, 0, 68);
-        this.addOreSpawn(BlockDecsRoxasmod.blockOres, 4, world, random, x, z, 16, 16, 4 + random.nextInt(6), 15, 0, 68);
-        this.addOreSpawn(BlockDecsRoxasmod.blockOres, 5, world, random, x, z, 16, 16, 4 + random.nextInt(6), 15, 0, 68);
+        this.addOreSpawn(BlockDecsRoxasmod.chromiumOre, world, random, x, z, 16, 16, 4 + random.nextInt(6), 15, 0, 68);
+        this.addOreSpawn(BlockDecsRoxasmod.copperOre, world, random, x, z, 16, 16, 4 + random.nextInt(6), 15, 0, 68);
+        this.addOreSpawn(BlockDecsRoxasmod.germaniumOre, world, random, x, z, 16, 16, 4 + random.nextInt(6), 15, 0, 68);
+        this.addOreSpawn(BlockDecsRoxasmod.nickelOre, world, random, x, z, 16, 16, 4 + random.nextInt(6), 15, 0, 68);
+        this.addOreSpawn(BlockDecsRoxasmod.palladiumOre, world, random, x, z, 16, 16, 4 + random.nextInt(6), 15, 0, 68);
+        this.addOreSpawn(BlockDecsRoxasmod.platinumOre, world, random, x, z, 16, 16, 4 + random.nextInt(6), 15, 0, 68);
+        this.addOreSpawn(BlockDecsRoxasmod.siliconOre, world, random, x, z, 16, 16, 4 + random.nextInt(6), 15, 0, 68);
+        this.addOreSpawn(BlockDecsRoxasmod.tinOre, world, random, x, z, 16, 16, 4 + random.nextInt(6), 15, 0, 68);
+
+        this.addOreSpawn(BlockDecsRoxasmod.purpleGemOre, world, random, x, z, 16, 16, 4 + random.nextInt(6), 15, 0, 68);
+        this.addOreSpawn(BlockDecsRoxasmod.redGemOre, world, random, x, z, 16, 16, 4 + random.nextInt(6), 15, 0, 68);
+        this.addOreSpawn(BlockDecsRoxasmod.blueGemOre, world, random, x, z, 16, 16, 4 + random.nextInt(6), 15, 0, 68);
+        this.addOreSpawn(BlockDecsRoxasmod.greenGemOre, world, random, x, z, 16, 16, 4 + random.nextInt(6), 15, 0, 68);
+        this.addOreSpawn(BlockDecsRoxasmod.pinkGemOre, world, random, x, z, 16, 16, 4 + random.nextInt(6), 15, 0, 68);
+        this.addOreSpawn(BlockDecsRoxasmod.orangeGemOre, world, random, x, z, 16, 16, 4 + random.nextInt(6), 15, 0, 68);
     }
 
     private void addOreSpawn(Block block, int meta, World world, Random random, int blockXPos, int blockZPos, int maxX, int maxZ, int maxVeinSize, int chanceToSpawn, int minY, int maxY)
@@ -52,6 +64,15 @@ public class sRoxasWorldGen implements IWorldGenerator{
             int posY= minY + random.nextInt(maxY - minY);
             int posZ= blockZPos + random.nextInt(maxZ);
             (new WorldGenMinable(block, meta, maxVeinSize, Blocks.stone)).generate(world, random, posX, posY, posZ);
+        }
+    }
+    private void addOreSpawn(Block block, World world, Random random, int blockXPos, int blockZPos, int maxX, int maxZ, int maxVeinSize, int chanceToSpawn, int minY, int maxY)
+    {
+        for (int i = 0; i < chanceToSpawn; i++) {
+            int posX= blockXPos + random.nextInt(maxX);
+            int posY= minY + random.nextInt(maxY - minY);
+            int posZ= blockZPos + random.nextInt(maxZ);
+            (new WorldGenMinable(block, maxVeinSize, Blocks.stone)).generate(world, random, posX, posY, posZ);
         }
     }
 }

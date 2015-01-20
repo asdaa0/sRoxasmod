@@ -11,8 +11,19 @@ itemGroup.sroxasmodtools=sRoxasmod's Tools
 # Items
 item.cheese.name=Cheese
 item.hardenedStick.name=Hardened Stick
-item.reinforcedIronIngot.name=Reinforced Iron Ingot
 item.reinforcedDiamond.name=Reinforced Diamond
+
+# Ingots
+item.reinforcedIronIngot.name=Reinforced Iron Ingot
+item.chromiumIngot.name=Chromium Ingot
+item.copperIngot.name=Copper Ingot
+item.tinIngot.name=Tin Ingot
+item.palladiumIngot.name=Palladium Ingot
+item.nickelIngot.name=Nickel Ingot
+item.platinumIngot.name=Platinum Ingot
+item.germaniumIngot.name=Germanium Ingot
+item.siliconIngot.name=Silicon Ingot
+item.leadIngot.name=Lead Ingot
 
 # Gems
 item.purpleGem.name=Purple Gem
@@ -28,6 +39,60 @@ item.reinforcedSword.name=Reinforced Sword
 item.reinforcedPick.name=Reinforced Pickaxe
 item.reinforcedShovel.name=Reinforced Shovel
 item.reinforcedHoe.name=Reinforced Hoe
+
+item.chromiumAxe.name=Chromium Axe
+item.chromiumSword.name=Chromium Sword
+item.chromiumPick.name=Chromium Pickaxe
+item.chromiumShovel.name=Chromium Shovel
+item.chromiumHoe.name=Chromium Hoe
+
+item.copperAxe.name=Copper Axe
+item.copperSword.name=Copper Sword
+item.copperPick.name=Copper Pickaxe
+item.copperShovel.name=Copper Shovel
+item.copperHoe.name=Copper Hoe
+
+item.germaniumAxe.name=Germanium Axe
+item.germaniumSword.name=Germanium Sword
+item.germaniumPick.name=Germanium Pickaxe
+item.germaniumShovel.name=Germanium Shovel
+item.germaniumHoe.name=Germanium Hoe
+
+item.leadAxe.name=Lead Axe
+item.leadSword.name=Lead Sword
+item.leadPick.name=Lead Pickaxe
+item.leadShovel.name=Lead Shovel
+item.leadHoe.name=Lead Hoe
+
+item.nickelAxe.name=Nickel Axe
+item.nickelSword.name=Nickel Sword
+item.nickelPick.name=Nickel Pickaxe
+item.nickelShovel.name=Nickel Shovel
+item.nickelHoe.name=Nickel Hoe
+
+item.palladiumAxe.name=Palladium Axe
+item.palladiumSword.name=Palladium Sword
+item.palladiumPick.name=Palladium Pickaxe
+item.palladiumShovel.name=Palladium Shovel
+item.palladiumHoe.name=Palladium Hoe
+
+item.platinumAxe.name=Platinum Axe
+item.platinumSword.name=Platinum Sword
+item.platinumPick.name=Platinum Pickaxe
+item.platinumShovel.name=Platinum Shovel
+item.platinumHoe.name=Platinum Hoe
+
+item.siliconAxe.name=Silicon Axe
+item.siliconSword.name=Silicon Sword
+item.siliconPick.name=Silicon Pickaxe
+item.siliconShovel.name=Silicon Shovel
+item.siliconHoe.name=Silicon Hoe
+
+item.tinAxe.name=Tin Axe
+item.tinSword.name=Tin Sword
+item.tinPick.name=Tin Pickaxe
+item.tinShovel.name=Tin Shovel
+item.tinHoe.name=Tin Hoe
 
 item.purpleGemAxe.name=Purple Gem Axe
 item.purpleGemSword.name=Purple Gem Sword
@@ -66,22 +131,41 @@ item.orangeGemShovel.name=Orange Gem Shovel
 item.orangeGemHoe.name=Orange Gem Hoe
 
 # Blocks
-tile.sroxasmod:bambooPlanks.name=Bamboo Planks
-tile.sroxasmod:blockOfReinforcedIron.name=Block of Reinforced Iron
-tile.sroxasmod:blockOfReinforcedDiamondEncrustedIron.name=Block of Reinforced Diamond Encrusted Iron
+tile.bambooPlanks.name=Bamboo Planks
+tile.blockOfReinforcedIron.name=Block of Reinforced Iron
+tile.blockOfReinforcedDiamondEncrustedIron.name=Block of Reinforced Diamond Encrusted Iron
 
-#Ores
-tile.sroxasmod:orePurpleGem.name=Purple Gem Ore
-tile.sroxasmod:oreRedGem.name=Red Gem Ore
-tile.sroxasmod:oreBlueGem.name=Blue Gem Ore
-tile.sroxasmod:oreGreenGem.name=Green Gem Ore
-tile.sroxasmod:orePinkGem.name=Pink Gem Ore
-tile.sroxasmod:oreOrangeGem.name=Orange Gem Ore
+# TileEntities
+tile.WoodenTable.name=Wooden Table
+tile.doubleFurnaceIdle.name=Doubling Furnace
+tile.doubleFurnaceActive.name=Doubling Furnace
 
-#Ores2
-tile.blockOres.purpleGemOre.name=Purple Gem Ore
-tile.blockOres.redGemOre.name=Red Gem Ore
-tile.blockOres.blueGemOre.name=Blue Gem Ore
-tile.blockOres.greenGemOre.name=Green Gem Ore
-tile.blockOres.pinkGemOre.name=Pink Gem Ore
-tile.blockOres.orangeGemOre.name=Orange Gem Ore
+# Entity
+entity.sRoxas.name=sRoxas
+
+# Ores
+tile.chromiumOre.name=Chromium Ore
+tile.tinOre.name=Tin Ore
+tile.copperOre.name=Copper Ore
+tile.palladiumOre.name=Palladium Ore
+tile.nickelOre.name=Nickel Ore
+tile.platinumOre.name=Platinum Ore
+tile.germaniumOre.name=Germanium Ore
+tile.siliconOre.name=Silicon Ore
+tile.leadOre.name=Lead Ore
+
+# Gem Ores
+tile.purpleGemOre.name=Purple Gem Ore
+tile.redGemOre.name=Red Gem Ore
+tile.blueGemOre.name=Blue Gem Ore
+tile.greenGemOre.name=Green Gem Ore
+tile.pinkGemOre.name=Pink Gem Ore
+tile.orangeGemOre.name=Orange Gem Ore
+
+# Lamps
+tile.CyanLampOff.name=Cyan Light
+tile.CyanLampOn.name=Cyan Light
+tile.PurpleLampOff.name=Purple Light
+tile.PurpleLampOn.name=Purple Light
+tile.GreenLampOff.name=Green Light
+tile.GreenLampOn.name=Green Light

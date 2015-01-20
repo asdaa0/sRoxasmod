@@ -1,9 +1,9 @@
 package com.sRoxas.sroxasmod.creativetab;
 
-import com.sRoxas.sroxasmod.init.ModItems;
+import com.sRoxas.sroxasmod.blocks.BlockDecsRoxasmod;
+import com.sRoxas.sroxasmod.item.ModItems;
 import com.sRoxas.sroxasmod.reference.Reference;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 
 public class sRoxasmodTabs
@@ -12,7 +12,7 @@ public class sRoxasmodTabs
         @Override
         public Item getTabIconItem()
         {
-            return ModItems.cheese;
+            return Item.getItemFromBlock(BlockDecsRoxasmod.BambooPlanks);
         }
     };
 
@@ -20,7 +20,7 @@ public class sRoxasmodTabs
         @Override
         public Item getTabIconItem()
         {
-            return ModItems.hardenedStick;
+            return ModItems.cheese;
         }
     };
 
@@ -28,7 +28,7 @@ public class sRoxasmodTabs
         @Override
         public Item getTabIconItem()
         {
-            return Items.apple;
+            return ModItems.palladiumPick;
         }
     };
 }

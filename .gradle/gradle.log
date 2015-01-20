@@ -7,48 +7,31 @@ The assetDir is deprecated!  Use runDir instead! runDir set to eclipse/assets/..
  R4wk, ZeuX, IngisKahn, bspkrs
  MCP Data version : unknown
 ****************************
-:extractMcpData
-:getVersionJson
-:extractUserDev UP-TO-DATE
-:genSrgs
-:extractNatives
-:getAssetsIndex
-:getAssets
-Current status: 0/105   0%
-Current status: 51/105   48%
-:makeStart
-Download http://files.minecraftforge.net/maven/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2.pom
-Download http://files.minecraftforge.net/maven/org/scala-lang/scala-compiler/2.10.2/scala-compiler-2.10.2.pom
-Download http://files.minecraftforge.net/maven/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2.jar
-Download http://files.minecraftforge.net/maven/org/scala-lang/scala-compiler/2.10.2/scala-compiler-2.10.2.jar
-warning: [options] bootstrap class path not set in conjunction with -source 1.6
-1 warning
-:downloadMcpTools UP-TO-DATE
-:downloadClient SKIPPED
-:downloadServer SKIPPED
-:mergeJars
-Adding cpw/mods/fml/relauncher/SideOnly.class
-Adding cpw/mods/fml/relauncher/Side.class
-:deobfuscateJar
-Applying SpecialSource...
-Applying Exceptor...
-:decompile
-:processSources
-Injecting fml files
-Applying fml patches
-Applying forge patches
-:remapJar
-:extractMinecraftSrc
-:recompMinecraftwarning: [options] bootstrap class path not set in conjunction with -source 1.6
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava
+:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 1 warning
 
-:repackMinecraft
-:setupDecompWorkspace
+:processResources
+:classes
+:jar
+:compileTestJava UP-TO-DATE
+:processTestResources UP-TO-DATE
+:testClasses UP-TO-DATE
+:test UP-TO-DATE
+:extractMcpData UP-TO-DATE
+:getVersionJson
+:extractUserDev UP-TO-DATE
+:genSrgs SKIPPED
+:reobf
+:assemble
+:check UP-TO-DATE
+:build
 
 BUILD SUCCESSFUL
 
-Total time: 3 mins 38.631 secs
+Total time: 16.161 secs
