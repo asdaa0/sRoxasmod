@@ -31,18 +31,5 @@ public class BlockDecsRoxasmod
     public static Block doubleFurnaceActive;
     public static final int guiIDDoubleFurnace = 0;
 
-    public static Block blockWhiteLampOn;
-    public static Block blockWhiteLampOff;
-    public static Block blockOrangeLampOn;
-    public static Block blockOrangeLampOff;
-    public static Block blockMagentaLampOn;
-    public static Block blockMagentaLampOff;
-    public static Block blockLightBlueLampOn;
-    public static Block blockLightBlueLampOff;
-    public static Block blockCyanLampOn;
-    public static Block blockCyanLampOff;
-    public static Block blockPurpleLampOn;
-    public static Block blockPurpleLampOff;
-    public static Block blockGreenLampOn;
-    public static Block blockGreenLampOff;
+    public static Block BlockLamps;
 }

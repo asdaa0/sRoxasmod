@@ -1,20 +1,17 @@
 package com.sRoxas.sroxasmod.blocks;
 
-import com.sRoxas.sroxasmod.blocks.lamps.BlockLamp;
+import com.sRoxas.sroxasmod.creativetab.sRoxasmodTabs;
+import com.sRoxas.sroxasmod.item.blocks.ItemBlockLamps;
 import com.sRoxas.sroxasmod.reference.Names;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.material.Material;
 
 import static com.sRoxas.sroxasmod.blocks.BlockDecsRoxasmod.*;
+import static com.sRoxas.sroxasmod.blocks.BlockDecsRoxasmod.BlockLamps;
 
 public class BlockssRoxasmod
 {
     public static void init()
-    {
-        registerBlocks();
-    }
-
-    public static void registerBlocks()
     {
         purpleGemOre = new BlockGemOres("purpleGemOre");
         redGemOre = new BlockGemOres("redGemOre");
@@ -42,29 +39,11 @@ public class BlockssRoxasmod
         doubleFurnaceIdle = new BlockDoubleFurnace(false, "doubleFurnaceIdle");
         doubleFurnaceActive = new BlockDoubleFurnace(true, "doubleFurnaceActive");
 
-        // Lamps
-        blockWhiteLampOn = new BlockLamp(true, "White");
-        blockWhiteLampOff = new BlockLamp(false, "White");
-        blockOrangeLampOn = new BlockLamp(true, "Orange");
-        blockOrangeLampOff = new BlockLamp(false, "Orange");
-        blockMagentaLampOn = new BlockLamp(true, "Magenta");
-        blockMagentaLampOff = new BlockLamp(false, "Magenta");
-        blockLightBlueLampOn = new BlockLamp(true, "LightBlue");
-        blockLightBlueLampOff = new BlockLamp(false, "LightBlue");
-        blockCyanLampOn = new BlockLamp(true, "Cyan");
-        blockCyanLampOff = new BlockLamp(false, "Cyan");
-        blockPurpleLampOn = new BlockLamp(true, "Purple");
-        blockPurpleLampOff = new BlockLamp(false, "Purple");
-        blockGreenLampOn = new BlockLamp(true, "Green");
-        blockGreenLampOff = new BlockLamp(false, "Green");
+        BlockLamps = new BlockLamps().setCreativeTab(sRoxasmodTabs.sRoxasmodBlockTab).setLightLevel(1f);
+        registerBlocks();
+    }
 
-        /* The
-        * Game
-        * Registry
-        * For
-        * Blocks
-        */
-
+    public static void registerBlocks(){
         // Blocks
         GameRegistry.registerBlock(chromiumOre, "chromiumOre");
         GameRegistry.registerBlock(copperOre, "copperOre");
@@ -87,21 +66,7 @@ public class BlockssRoxasmod
         GameRegistry.registerBlock(BlockOfReinforcedIron, "blockOfReinforcedIron");
         GameRegistry.registerBlock(BlockOfReinforcedDiamondEncrustedIron, "blockOfReinforcedDiamondEncrustedIron");
 
-        // Lamps
-        GameRegistry.registerBlock(blockWhiteLampOn, "whiteLampOn");
-        GameRegistry.registerBlock(blockWhiteLampOff, "whiteLampOff");
-        GameRegistry.registerBlock(blockOrangeLampOn, "orangeLampOn");
-        GameRegistry.registerBlock(blockOrangeLampOff, "orangeLampOff");
-        GameRegistry.registerBlock(blockMagentaLampOn, "magentaLampOn");
-        GameRegistry.registerBlock(blockMagentaLampOff, "magentaLampOff");
-        GameRegistry.registerBlock(blockLightBlueLampOn, "lightBlueLampOn");
-        GameRegistry.registerBlock(blockLightBlueLampOff, "lightBlueLampOff");
-        GameRegistry.registerBlock(blockCyanLampOn, "cyanLampOn");
-        GameRegistry.registerBlock(blockCyanLampOff, "cyanLampOff");
-        GameRegistry.registerBlock(blockPurpleLampOn, "purpleLampOn");
-        GameRegistry.registerBlock(blockPurpleLampOff, "purpleLampOff");
-        GameRegistry.registerBlock(blockGreenLampOn, "greenLampOn");
-        GameRegistry.registerBlock(blockGreenLampOff, "greenLampOff");
+        GameRegistry.registerBlock(BlockLamps, ItemBlockLamps.class, BlockLamps.getUnlocalizedName().substring(5));
 
         // TileEntities
         GameRegistry.registerBlock(blockWoodenTable, "woodenTable");

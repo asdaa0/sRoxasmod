@@ -205,6 +205,7 @@ public class TileEntityDoubleFurnace extends TileEntity implements ISidedInvento
                 this.furnaceItemStacks[2] = itemStack.copy();
             } else if (this.furnaceItemStacks[2].isItemEqual(itemStack)) {
                 this.furnaceItemStacks[2].stackSize += itemStack.stackSize;
+                this.furnaceItemStacks[2].stackSize += itemStack.stackSize;
             }
 
             this.furnaceItemStacks[0].stackSize--;
