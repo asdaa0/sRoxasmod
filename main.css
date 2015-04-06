@@ -10,35 +10,101 @@
   display: inline;
 }
 
-.jumbotron {
+.jumbotronIndex {
   background-image:url('http://goo.gl/TYqcPb');
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.jumbotron .container {
+.jumbotronIndex .container {
   position: relative;
   top:100px;
 }
 
-.jumbotron h1 {
+.jumbotronIndex h1 {
   color: #fff;
   font-size: 48px;  
   font-family: 'Shift', sans-serif;
   font-weight: bold;
 }
 
-.jumbotron h2 {
+.jumbotronIndex h2 {
   color: #eee;
   font-size: 36px;  
   font-family: 'Shift', sans-serif;
   font-weight: lighter;
 }
 
-.jumbotron p {
+.jumbotronIndex p {
   font-size: 20px;
   color: #fff;
+}
+
+.jumbotronIdeas {
+  background-image:url('http://cdn.desktopwallpapers4.me/wallpapers/fantasy/1920x1200/2/13853-steampunk-ship-1920x1200-fantasy-wallpaper.jpg');
+  height: 640px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotronIdeas .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotronIdeas h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  text-align: right;
+}
+
+.jumbotronIdeas h2 {
+  color: #eee;
+  font-size: 36px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: lighter;
+}
+
+.jumbotronIdeas p {
+  font-size: 20px;
+  color: #eee;
+  text-align: right;
+}
+
+.jumbotronDownloads {
+  background-image:url('http://www.pageresource.com/wallpapers/wallpaper/steampunk-blimps_424531.jpg');
+  height: 640px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotronDownloads .container {
+  position: relative;
+  top:0px;
+}
+
+.jumbotronDownloads h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  text-align: right;
+}
+
+.jumbotronDownloads h2 {
+  color: #eee;
+  font-size: 36px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: lighter;
+}
+
+.jumbotronDownloads p {
+  font-size: 20px;
+  color: #fff;
+  text-align: right;
 }
 
 .neighborhood-guides {
