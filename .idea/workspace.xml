@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5af2eae2-75c4-499d-8200-075596ce59a4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Items.html" afterPath="$PROJECT_DIR$/Items.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/items/Thumbs.db" afterPath="$PROJECT_DIR$/items/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/items/chromiumAxe.png" afterPath="$PROJECT_DIR$/items/chromiumAxe.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/items/chromiumHoe.png" afterPath="$PROJECT_DIR$/items/chromiumHoe.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/items/chromiumIngot.png" afterPath="$PROJECT_DIR$/items/chromiumIngot.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/items/chromiumPick.png" afterPath="$PROJECT_DIR$/items/chromiumPick.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/items/chromiumShovel.png" afterPath="$PROJECT_DIR$/items/chromiumShovel.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/items/chromiumSword.png" afterPath="$PROJECT_DIR$/items/chromiumSword.png" />
     </list>
     <ignored path="sRoxasmod.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Items.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Items.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Items.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7900172">
-              <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+            <state vertical-scroll-proportion="-7.1923075">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -83,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="push.bat" pinned="false" current-in-tab="false">
+      <file leaf-file-name="push.bat" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/push.bat">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.08401977">
               <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
               <folding />
             </state>
@@ -211,16 +217,6 @@
     <property name="recentsLimit" value="5" />
   </component>
   <component name="RunManager" selected="Batch.push">
-    <configuration default="false" name="push" type="BatchConfigurationType" factoryName="Batch" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\Luke\Desktop\Coding\HTML\Projects\Websites\testing stuffs\sRoxasmod" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <module name="sRoxasmod" />
-      <option name="SCRIPT_NAME" value="push.bat" />
-      <option name="PARAMETERS" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -378,14 +374,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="false" name="push" type="BatchConfigurationType" factoryName="Batch">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Luke\Desktop\Coding\HTML\Projects\Websites\testing stuffs\sRoxasmod" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="sRoxasmod" />
+      <option name="SCRIPT_NAME" value="push.bat" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Batch.push" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Batch.push" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -509,14 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ideas.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -533,18 +526,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/push.bat">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Items.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7900172">
-          <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -566,6 +559,14 @@
             <element signature="n#td#0;n#tr#8;n#tbody#0;n#table#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#table#0;n#td#0;n#tr#10;n#tbody#0;n#table#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/push.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08401977">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
