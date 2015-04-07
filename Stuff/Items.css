@@ -1,6 +1,6 @@
 .jumbotron {
-  background-image:url('http://cdn.desktopwallpapers4.me/wallpapers/fantasy/1920x1200/2/13853-steampunk-ship-1920x1200-fantasy-wallpaper.jpg');
-  height: 640px;
+  background-image:url('http://wallpoper.com/images/00/26/94/51/steampunk-ships_00269451.jpg');
+  height: 800px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -31,6 +31,20 @@
   text-align: right;
 }
 
-table{
-	padding: 10px;
+h4{
+	font-size: 30px;  
+	font-family: 'Shift', sans-serif;
+	font-weight: bold;
+	text-align: center-left;
+}
+
+h5{
+	font-size: 18px;  
+	font-family: 'Shift', sans-serif;
+	font-weight: bold;
+	text-align: center-left;
+}
+
+th,td {
+    padding: 15px;
 }
