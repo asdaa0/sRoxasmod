@@ -31,15 +31,3 @@
   text-align: right;
 }
 
-.main .container{
-	display: inline-block;
-	vertical-align: top;	
-}
-
-.top{
-	margin-top: 4px;
-}
-.text{
-	margin-bottom: 25px;
-}
-

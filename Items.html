@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+	<head>
+	<script>
+		function toggleBlueTable() {
+			var lTable = document.getElementById("blueGemTools");
+			lTable.style.display = (lTable.style.display == "table") ? "none" : "table";
+		}
+	</script>
     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
     
     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
     <link rel="stylesheet" href="Stuff/main.css">
     <link rel="stylesheet" href="Stuff/Items.css">
     
-  </head>
-  <body>
+	</head>
+	<body>
     <div class="nav">
       <div class="container">
         <ul class="pull-left">
@@ -28,47 +34,65 @@
 	<div class="jumbotron">
       <div class="container">
         <h1>sRoxasmod - Items</h1>
-        <p>This is where you can find all the items =D. This will tell you how to get them and how to use them.</p>
+        <p>This is where you can find all the items and what they are called.</p>
         <a href="#"></a> 
       </div>
     </div>
 	
 	<div class="main">
 		<div class="container">
-			<h2>List of Items</h2>
-			<div class="row">
-				<div class="col-md-1">
-					<div class="top"><div class="thumbnail">
-						<img src="items/cheese.jpg">
-					</div></div>
-					<div class="thumbnail">
-						<img src="items/blueGem.png">
-					</div>
-					<div class="thumbnail">
-						<img src="items/redGem.png">
-					</div>
-					<div class="thumbnail">
-						<img src="items/greenGem.png">
-					</div>
-				</div>
-				<div class="col-md-3">
-					<div class="text">
-						<h4>Cheese</h4>
-					</div>
-					<div class="text">
-						<h4>Blue Gem</h4>
-					</div>
-					<div class="text">
-						<h4>Red Gem</h4>
-					</div>
-					<div class="text">
-						<h4>Green Gem</h4>
-					</div>
-				</div>
-			</div>
+			<h3>List of Items</h3>
+			<p>Hover over the item to learn its name. Click gems and metals to see their tools!</p>
+			
+			<table cellspacing="128">
+			<tbody>
+			
+			<tr><td>
+				<img title="Cheese" src="items/cheese.png">
+			</td>
+			<td>
+				<a onclick="toggleBlueTable();"><img title="Blue Gem" src="items/blueGem.png"></a>
+			</td></tr>
+			
+			<table style="display:none" cellspacing="128" id="blueGemTools">
+			<tbody>
+			
+				<tr><td>
+				</td>
+				<td>
+					<img title="Blue Gem Sword" src="items/blueGemSword.png">
+				</td>
+				
+				<td>
+				</td>
+				<td>
+					<img title="Blue Gem Pick" src="items/blueGemPick.png">
+				</td>
+				
+				<td>
+				</td>
+				<td>
+					<img title="Blue Gem Shovel" src="items/blueGemShovel.png">
+				</td>
+				
+				<td>
+				</td>
+				<td>
+					<img title="Blue Gem Axe" src="items/blueGemAxe.png">
+				</td>
+				
+				<td>
+				</td>
+				<td>
+					<img title="Blue Gem Hoe" src="items/blueGemHoe.png">
+				</td></tr>
+			
+			</tbody>
+			</table>
+			
+			</tbody></table>
 		</div>
 	</div>
-	<h1>WHERE YOUR TEXT GOES<h1>
 	
 	
 	<div class="learn-more">
