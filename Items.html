@@ -27,6 +27,10 @@
 			var lTable = document.getElementById("pinkGemTools");
 			lTable.style.display = (lTable.style.display == "table") ? "none" : "table";
 		}
+		function toggleChromiumTable() {
+			var lTable = document.getElementById("chromeTools");
+			lTable.style.display = (lTable.style.display == "table") ? "none" : "table";
+		}
 	</script>
 	<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
 
@@ -318,6 +322,53 @@
 
 							<td>
 								<img title="Pink Gem Hoe" src="items/pinkGemHoe.png">
+							</td>
+						</tr>
+
+						</tbody>
+					</table>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<h4>Metals</h4>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<a onclick="toggleChromiumTable();"><img title="Chromium Ingot" src="items/chromiumIngot.png"></a>
+
+
+					<table style="display:none" cellspacing="128" id="chromeTools">
+						<tbody>
+
+						<tr>
+							<td>
+								<h5> Chrome Tools </h5>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<img title="Chromium Sword" src="items/ChromiumSword.png">
+							</td>
+
+							<td>
+								<img title="Chromium Pick" src="items/ChromiumPick.png">
+							</td>
+
+							<td>
+								<img title="Chromium Shovel" src="items/ChromiumShovel.png">
+							</td>
+
+							<td>
+								<img title="Chromium Axe" src="items/ChromiumAxe.png">
+							</td>
+
+							<td>
+								<img title="Chromium Hoe" src="items/ChromiumHoe.png">
 							</td>
 						</tr>
 
