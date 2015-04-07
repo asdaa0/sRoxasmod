@@ -19,6 +19,14 @@
 			var lTable = document.getElementById("purpleGemTools");
 			lTable.style.display = (lTable.style.display == "table") ? "none" : "table";
 		}
+		function toggleOrangeTable() {
+			var lTable = document.getElementById("orangeGemTools");
+			lTable.style.display = (lTable.style.display == "table") ? "none" : "table";
+		}
+		function togglePinkTable() {
+			var lTable = document.getElementById("pinkGemTools");
+			lTable.style.display = (lTable.style.display == "table") ? "none" : "table";
+		}
 	</script>
     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
     
@@ -230,6 +238,46 @@
 				
 				<td>
 					<img title="Purple Gem Hoe" src="items/purpleGemHoe.png">
+				</td>
+				</tr>
+		
+			</tbody>
+			</table>
+			</td>
+			
+			<tr>
+			<td>
+				<a onclick="toggleOrangeTable();"><img title="Orange Gem" src="items/orangeGem.png"></a>
+			
+			
+			<table style="display:none" cellspacing="128" id="orangeGemTools">
+			<tbody>
+			
+				<tr>
+				<td>
+					<h5> Orange Gem Tools </h5>
+				</td>
+				</tr>
+			
+				<tr>
+				<td>
+					<img title="Orange Gem Sword" src="items/orangeGemSword.png">
+				</td>
+				
+				<td>
+					<img title="Orange Gem Pick" src="items/orangeGemPick.png">
+				</td>
+				
+				<td>
+					<img title="Orange Gem Shovel" src="items/orangeGemShovel.png">
+				</td>
+				
+				<td>
+					<img title="Orange Gem Axe" src="items/orangeGemAxe.png">
+				</td>
+				
+				<td>
+					<img title="Orange Gem Hoe" src="items/orangeGemHoe.png">
 				</td>
 				</tr>
 		
