@@ -7,6 +7,10 @@
 			var lTable = document.getElementById("blueGemTools");
 			lTable.style.display = (lTable.style.display == "table") ? "none" : "table";
 		}
+		function toggleGreenTable() {
+			var lTable = document.getElementById("greenGemTools");
+			lTable.style.display = (lTable.style.display == "table") ? "none" : "table";
+		}
 	</script>
     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
     
@@ -49,8 +53,9 @@
 			
 			<tr><td>
 				<img title="Cheese" src="items/cheese.png">
-			</td>
-			<td>
+			</td></tr>
+			
+			<tr><td>
 				<a onclick="toggleBlueTable();"><img title="Blue Gem" src="items/blueGem.png"></a>
 			</td></tr>
 			
@@ -85,6 +90,46 @@
 				</td>
 				<td>
 					<img title="Blue Gem Hoe" src="items/blueGemHoe.png">
+				</td>
+			
+			</tbody>
+			</table>
+			
+			<tr><td>
+				<a onclick="toggleGreenTable();"><img title="Green Gem" src="items/greenGem.png"></a>
+			</td></tr>
+			
+			<table style="display:none" cellspacing="128" id="greenGemTools">
+			<tbody>
+			
+				<tr><td>
+				</td>
+				<td>
+					<img title="Green Gem Sword" src="items/greenGemSword.png">
+				</td>
+				
+				<td>
+				</td>
+				<td>
+					<img title="Green Gem Pick" src="items/greenGemPick.png">
+				</td>
+				
+				<td>
+				</td>
+				<td>
+					<img title="Green Gem Shovel" src="items/greenGemShovel.png">
+				</td>
+				
+				<td>
+				</td>
+				<td>
+					<img title="Green Gem Axe" src="items/greenGemAxe.png">
+				</td>
+				
+				<td>
+				</td>
+				<td>
+					<img title="Green Gem Hoe" src="items/greenGemHoe.png">
 				</td></tr>
 			
 			</tbody>
