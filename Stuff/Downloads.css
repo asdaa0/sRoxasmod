@@ -1,0 +1,32 @@
+.jumbotron {
+  background-image:url('http://www.pageresource.com/wallpapers/wallpaper/steampunk-blimps_424531.jpg');
+  height: 640px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:0px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  text-align: right;
+}
+
+.jumbotron h2 {
+  color: #eee;
+  font-size: 36px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: lighter;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+  text-align: right;
+}
