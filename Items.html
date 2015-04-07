@@ -11,6 +11,10 @@
 			var lTable = document.getElementById("greenGemTools");
 			lTable.style.display = (lTable.style.display == "table") ? "none" : "table";
 		}
+		function toggleRedTable() {
+			var lTable = document.getElementById("redGemTools");
+			lTable.style.display = (lTable.style.display == "table") ? "none" : "table";
+		}
 	</script>
     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
     
@@ -51,90 +55,115 @@
 			<table cellspacing="128">
 			<tbody>
 			
-			<tr><td>
+			<tr>
+			<td>
 				<img title="Cheese" src="items/cheese.png">
-			</td></tr>
+			</td>
+			</tr>
 			
-			<tr><td>
+			<tr>
+			<td>
 				<a onclick="toggleBlueTable();"><img title="Blue Gem" src="items/blueGem.png"></a>
-			</td></tr>
+			
 			
 			<table style="display:none" cellspacing="128" id="blueGemTools">
 			<tbody>
 			
-				<tr><td>
-				</td>
+				<tr>
 				<td>
 					<img title="Blue Gem Sword" src="items/blueGemSword.png">
 				</td>
 				
 				<td>
-				</td>
-				<td>
 					<img title="Blue Gem Pick" src="items/blueGemPick.png">
 				</td>
 				
-				<td>
-				</td>
 				<td>
 					<img title="Blue Gem Shovel" src="items/blueGemShovel.png">
 				</td>
 				
 				<td>
-				</td>
-				<td>
 					<img title="Blue Gem Axe" src="items/blueGemAxe.png">
 				</td>
 				
 				<td>
-				</td>
-				<td>
 					<img title="Blue Gem Hoe" src="items/blueGemHoe.png">
 				</td>
+				</tr>
 			
 			</tbody>
 			</table>
+			</td>
 			
-			<tr><td>
+			<tr>
+			<td>
 				<a onclick="toggleGreenTable();"><img title="Green Gem" src="items/greenGem.png"></a>
-			</td></tr>
+			
 			
 			<table style="display:none" cellspacing="128" id="greenGemTools">
 			<tbody>
 			
-				<tr><td>
-				</td>
+				<tr>
 				<td>
 					<img title="Green Gem Sword" src="items/greenGemSword.png">
 				</td>
 				
 				<td>
-				</td>
-				<td>
 					<img title="Green Gem Pick" src="items/greenGemPick.png">
 				</td>
 				
-				<td>
-				</td>
 				<td>
 					<img title="Green Gem Shovel" src="items/greenGemShovel.png">
 				</td>
 				
 				<td>
-				</td>
-				<td>
 					<img title="Green Gem Axe" src="items/greenGemAxe.png">
 				</td>
 				
 				<td>
-				</td>
-				<td>
 					<img title="Green Gem Hoe" src="items/greenGemHoe.png">
-				</td></tr>
+				</td>
+				</tr>
 			
 			</tbody>
 			</table>
+			</td>
 			
+			<tr>
+			<td>
+				<a onclick="toggleRedTable();"><img title="Red Gem" src="items/redGem.png"></a>
+			
+			
+			<table style="display:none" cellspacing="128" id="redGemTools">
+			<tbody>
+			
+				<tr>
+				<td>
+					<img title="Red Gem Sword" src="items/redGemSword.png">
+				</td>
+				
+				<td>
+					<img title="Red Gem Pick" src="items/redGemPick.png">
+				</td>
+				
+				<td>
+					<img title="Red Gem Shovel" src="items/redGemShovel.png">
+				</td>
+				
+				<td>
+					<img title="Red Gem Axe" src="items/redGemAxe.png">
+				</td>
+				
+				<td>
+					<img title="Red Gem Hoe" src="items/redGemHoe.png">
+				</td>
+				</tr>
+		
+			</tbody>
+			</table>
+			</td>
+			
+			</tr>
 			</tbody></table>
 		</div>
 	</div>
